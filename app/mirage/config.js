@@ -1,3 +1,5 @@
+import Mirage from 'ember-cli-mirage';
+
 export default function() {
   this.get('/api/carros', function() {
     return {
@@ -26,5 +28,8 @@ export default function() {
   });
   this.patch('/api/carros/:id', function(db, request) {
     return JSON.parse(request.requestBody);
+  });
+  this.del('/api/carros/:id', function(db, request) {
+    return new Mirage.Response(204);
   });
 }
