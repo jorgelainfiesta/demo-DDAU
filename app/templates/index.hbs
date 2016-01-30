@@ -1,0 +1,4 @@
+Hay {{model.length}} carros.
+{{#each model as |carro|}}
+   {{mostrar-carro carro=carro on-edit=(action 'editarCarro' carro) on-delete=(action 'borrarCarro' carro)}}
+{{/each}}
