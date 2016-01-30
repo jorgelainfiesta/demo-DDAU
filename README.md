@@ -2,11 +2,11 @@
 
 # DDAU
 
-En este demo se presenta un ejemplo muy sencillo sobre el concepto de *Data Down, Actions Up*.
+En este demo se presenta un ejemplo muy sencillo sobre el concepto de *Data Down, Actions Up*. Para más información puedes leer el artículo que acompaña a este repositorio: [Ember en Español: ¿DDAU?](https://medium.com/ember-js-en-espa%C3%B1ol/ddau-c29d332ddfb6#.ll9uk6qvn).
 
 Utilizamos `ember-mirage` para fingir la conexión con el servidor.
 
-## Prerequisites
+## Prerequisitos
 
 Necesitarás tener instalado en tu computadora correctamente lo siguiente:
 
@@ -16,14 +16,14 @@ Necesitarás tener instalado en tu computadora correctamente lo siguiente:
 * [Ember CLI](http://www.ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
 
-## Installation
+## Instalación
 
 * `git clone <repository-url>` este repositorio
 * cambiar al nuevo repositorio
 * `npm install`
 * `bower install`
 
-## Running / Development
+## Para ejecutar
 
 * `ember server`
 * Visite su aplicación en [http://localhost:4200](http://localhost:4200).
